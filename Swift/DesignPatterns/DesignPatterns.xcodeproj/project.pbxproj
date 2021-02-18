@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		DCEE361225DACC35006B695F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE361125DACC35006B695F /* AppDelegate.swift */; };
-		DCEE361425DACC35006B695F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE361325DACC35006B695F /* SceneDelegate.swift */; };
 		DCEE361625DACC35006B695F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE361525DACC35006B695F /* ViewController.swift */; };
 		DCEE361925DACC35006B695F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEE361725DACC35006B695F /* Main.storyboard */; };
 		DCEE361B25DACC37006B695F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCEE361A25DACC37006B695F /* Assets.xcassets */; };
@@ -39,7 +38,6 @@
 /* Begin PBXFileReference section */
 		DCEE360E25DACC35006B695F /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEE361125DACC35006B695F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DCEE361325DACC35006B695F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DCEE361525DACC35006B695F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DCEE361825DACC35006B695F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DCEE361A25DACC37006B695F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,7 +103,6 @@
 			children = (
 				DCEE364925DACCA6006B695F /* Patterns */,
 				DCEE361125DACC35006B695F /* AppDelegate.swift */,
-				DCEE361325DACC35006B695F /* SceneDelegate.swift */,
 				DCEE361525DACC35006B695F /* ViewController.swift */,
 				DCEE361725DACC35006B695F /* Main.storyboard */,
 				DCEE361A25DACC37006B695F /* Assets.xcassets */,
@@ -275,7 +272,6 @@
 				DCEE364B25DACCD2006B695F /* Factory.swift in Sources */,
 				DCEE361625DACC35006B695F /* ViewController.swift in Sources */,
 				DCEE361225DACC35006B695F /* AppDelegate.swift in Sources */,
-				DCEE361425DACC35006B695F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

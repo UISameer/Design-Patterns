@@ -3,7 +3,7 @@ import XCTest
 
 class FactoryPattern: XCTestCase {
     
-    func testFactoryMethodRealWorld() {
+    func testFactoryMethod() {
         
         let info = "Very important info of the presentation"
         
