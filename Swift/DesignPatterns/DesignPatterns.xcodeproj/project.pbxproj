@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC4E32B02618CE6E00C989F4 /* AbstractFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E32AF2618CE6E00C989F4 /* AbstractFactory.swift */; };
+		DC4E32BB2618CEB800C989F4 /* testAbstractFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4E32BA2618CEB800C989F4 /* testAbstractFactoryPattern.swift */; };
 		DCEE361225DACC35006B695F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE361125DACC35006B695F /* AppDelegate.swift */; };
 		DCEE361625DACC35006B695F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE361525DACC35006B695F /* ViewController.swift */; };
 		DCEE361925DACC35006B695F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEE361725DACC35006B695F /* Main.storyboard */; };
@@ -14,10 +16,10 @@
 		DCEE361E25DACC37006B695F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCEE361C25DACC37006B695F /* LaunchScreen.storyboard */; };
 		DCEE362925DACC37006B695F /* DesignPatternsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE362825DACC37006B695F /* DesignPatternsTests.swift */; };
 		DCEE363425DACC37006B695F /* DesignPatternsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE363325DACC37006B695F /* DesignPatternsUITests.swift */; };
-		DCEE364525DACC72006B695F /* FactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE364425DACC72006B695F /* FactoryPattern.swift */; };
+		DCEE364525DACC72006B695F /* testFactoryPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE364425DACC72006B695F /* testFactoryPattern.swift */; };
 		DCEE364B25DACCD2006B695F /* Factory.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCEE364A25DACCD2006B695F /* Factory.swift */; };
 		DCF55A5E25FA5B1700F6AF95 /* Builder.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55A5D25FA5B1700F6AF95 /* Builder.swift */; };
-		DCF55A6325FA5B9D00F6AF95 /* BuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55A6225FA5B9D00F6AF95 /* BuilderPattern.swift */; };
+		DCF55A6325FA5B9D00F6AF95 /* testBuilderPattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF55A6225FA5B9D00F6AF95 /* testBuilderPattern.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC4E32AF2618CE6E00C989F4 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
+		DC4E32BA2618CEB800C989F4 /* testAbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAbstractFactoryPattern.swift; sourceTree = "<group>"; };
 		DCEE360E25DACC35006B695F /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEE361125DACC35006B695F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCEE361525DACC35006B695F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,10 +55,10 @@
 		DCEE362F25DACC37006B695F /* DesignPatternsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEE363325DACC37006B695F /* DesignPatternsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignPatternsUITests.swift; sourceTree = "<group>"; };
 		DCEE363525DACC37006B695F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DCEE364425DACC72006B695F /* FactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryPattern.swift; sourceTree = "<group>"; };
+		DCEE364425DACC72006B695F /* testFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFactoryPattern.swift; sourceTree = "<group>"; };
 		DCEE364A25DACCD2006B695F /* Factory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factory.swift; sourceTree = "<group>"; };
 		DCF55A5D25FA5B1700F6AF95 /* Builder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Builder.swift; sourceTree = "<group>"; };
-		DCF55A6225FA5B9D00F6AF95 /* BuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern.swift; sourceTree = "<group>"; };
+		DCF55A6225FA5B9D00F6AF95 /* testBuilderPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testBuilderPattern.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,8 +125,9 @@
 			children = (
 				DCEE362825DACC37006B695F /* DesignPatternsTests.swift */,
 				DCEE362A25DACC37006B695F /* Info.plist */,
-				DCEE364425DACC72006B695F /* FactoryPattern.swift */,
-				DCF55A6225FA5B9D00F6AF95 /* BuilderPattern.swift */,
+				DCEE364425DACC72006B695F /* testFactoryPattern.swift */,
+				DCF55A6225FA5B9D00F6AF95 /* testBuilderPattern.swift */,
+				DC4E32BA2618CEB800C989F4 /* testAbstractFactoryPattern.swift */,
 			);
 			path = DesignPatternsTests;
 			sourceTree = "<group>";
@@ -141,6 +146,7 @@
 			children = (
 				DCEE364A25DACCD2006B695F /* Factory.swift */,
 				DCF55A5D25FA5B1700F6AF95 /* Builder.swift */,
+				DC4E32AF2618CE6E00C989F4 /* AbstractFactory.swift */,
 			);
 			path = Patterns;
 			sourceTree = "<group>";
@@ -277,6 +283,7 @@
 			files = (
 				DCEE364B25DACCD2006B695F /* Factory.swift in Sources */,
 				DCEE361625DACC35006B695F /* ViewController.swift in Sources */,
+				DC4E32B02618CE6E00C989F4 /* AbstractFactory.swift in Sources */,
 				DCEE361225DACC35006B695F /* AppDelegate.swift in Sources */,
 				DCF55A5E25FA5B1700F6AF95 /* Builder.swift in Sources */,
 			);
@@ -287,8 +294,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCEE362925DACC37006B695F /* DesignPatternsTests.swift in Sources */,
-				DCF55A6325FA5B9D00F6AF95 /* BuilderPattern.swift in Sources */,
-				DCEE364525DACC72006B695F /* FactoryPattern.swift in Sources */,
+				DCF55A6325FA5B9D00F6AF95 /* testBuilderPattern.swift in Sources */,
+				DC4E32BB2618CEB800C989F4 /* testAbstractFactoryPattern.swift in Sources */,
+				DCEE364525DACC72006B695F /* testFactoryPattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
