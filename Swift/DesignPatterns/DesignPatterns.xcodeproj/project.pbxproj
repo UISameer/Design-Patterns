@@ -44,6 +44,7 @@
 		DC4E32BA2618CEB800C989F4 /* testAbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAbstractFactoryPattern.swift; sourceTree = "<group>"; };
 		DCBF666D261CBE0E008808B3 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCBF6671261CC6BB008808B3 /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		DCBF6675261CD9FA008808B3 /* Facade.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Facade.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCEE360E25DACC35006B695F /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEE361125DACC35006B695F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCEE361525DACC35006B695F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -93,6 +94,7 @@
 			children = (
 				DCBF666D261CBE0E008808B3 /* Builder.playground */,
 				DCBF6671261CC6BB008808B3 /* Adapter.playground */,
+				DCBF6675261CD9FA008808B3 /* Facade.playground */,
 			);
 			path = Examples;
 			sourceTree = "<group>";
