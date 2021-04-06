@@ -42,6 +42,7 @@
 /* Begin PBXFileReference section */
 		DC4E32AF2618CE6E00C989F4 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		DC4E32BA2618CEB800C989F4 /* testAbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAbstractFactoryPattern.swift; sourceTree = "<group>"; };
+		DCBF666D261CBE0E008808B3 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCEE360E25DACC35006B695F /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCEE361125DACC35006B695F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCEE361525DACC35006B695F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -86,6 +87,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DCBF666C261CBDF0008808B3 /* Examples */ = {
+			isa = PBXGroup;
+			children = (
+				DCBF666D261CBE0E008808B3 /* Builder.playground */,
+			);
+			path = Examples;
+			sourceTree = "<group>";
+		};
 		DCEE360525DACC35006B695F = {
 			isa = PBXGroup;
 			children = (
@@ -109,6 +118,7 @@
 		DCEE361025DACC35006B695F /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				DCBF666C261CBDF0008808B3 /* Examples */,
 				DCEE364925DACCA6006B695F /* Patterns */,
 				DCEE361125DACC35006B695F /* AppDelegate.swift */,
 				DCEE361525DACC35006B695F /* ViewController.swift */,
