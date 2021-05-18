@@ -40,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DC20BAB3265447AD00102AC0 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DC4E32AF2618CE6E00C989F4 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		DC4E32BA2618CEB800C989F4 /* testAbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAbstractFactoryPattern.swift; sourceTree = "<group>"; };
 		DCBF666D261CBE0E008808B3 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -107,6 +108,7 @@
 			children = (
 				DCEDF59B2652F5080022B76E /* AbstractFactory.playground */,
 				DCEDF59C2652FD7F0022B76E /* Factory.playground */,
+				DC20BAB3265447AD00102AC0 /* Builder.playground */,
 			);
 			path = Creational;
 			sourceTree = "<group>";
