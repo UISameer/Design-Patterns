@@ -43,6 +43,7 @@
 		DC20BAB3265447AD00102AC0 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DC4E32AF2618CE6E00C989F4 /* AbstractFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory.swift; sourceTree = "<group>"; };
 		DC4E32BA2618CEB800C989F4 /* testAbstractFactoryPattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testAbstractFactoryPattern.swift; sourceTree = "<group>"; };
+		DC664DE42656C9EF00D85355 /* Decorator.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Decorator.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCBF666D261CBE0E008808B3 /* Builder.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Builder.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCBF6671261CC6BB008808B3 /* Adapter.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Adapter.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		DCBF6675261CD9FA008808B3 /* Facade.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Facade.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -92,9 +93,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC664DE32656C9DE00D85355 /* Structural */ = {
+			isa = PBXGroup;
+			children = (
+				DC664DE42656C9EF00D85355 /* Decorator.playground */,
+			);
+			path = Structural;
+			sourceTree = "<group>";
+		};
 		DCBF666C261CBDF0008808B3 /* Examples */ = {
 			isa = PBXGroup;
 			children = (
+				DC664DE32656C9DE00D85355 /* Structural */,
 				DCEDF59A2652F4DF0022B76E /* Creational */,
 				DCBF666D261CBE0E008808B3 /* Builder.playground */,
 				DCBF6671261CC6BB008808B3 /* Adapter.playground */,
