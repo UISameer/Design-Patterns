@@ -1,2 +1,2 @@
 # Design-Patterns
-Design Pattern Implemetation in C++ and Swift
+Design Pattern in Swift
